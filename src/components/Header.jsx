@@ -6,6 +6,7 @@ import LatestR from "./LatestR"
 import BestR from "./BestR"
 import Mail from "./Mail"
 import Lvideos from "./Lvideos"
+import Hero from "./Hero"
 export default function Header() {
     return <>
   <div>
@@ -21,132 +22,7 @@ export default function Header() {
                 <header className=" mt-[4em] mb-[1.2em] mx-auto pl-0 pr-5 XkEkyX" />
                 <div className=" after:table after:clear-both after:content-[''] HuMGnt">
                   <div className="mb-0 BRmkss" data-elementor-id={17} data-elementor-type="wp-page">
-                    <div data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="container" data-id="4434dc1" className="basis-auto grow-0 shrink order-none self-auto relative w-[1349px] min-w-0 min-h-0 h-[956.875px] z-auto overflow-visible flex-initial flex max-w-full bg-[url(https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-hero-bg-grad.svg)] bg-[60vw_0] bg-no-repeat bg-contain rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:0px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:40px] [padding-inline-end:40px] [flex-flow:column] lg:bg-[80vw_0] md:bg-[72vw_0] ciAjbS">
-                      <div className="text-start flex-row flex flex-nowrap justify-normal items-stretch content-normal flex-auto self-auto gap-0 w-full max-w-[min(100%,1200px)] h-full mx-auto my-0 [padding-block-start:204px] [padding-block-end:0px] [padding-inline:0px] fWZVhS">
-                        <div data-element_type="container" data-id="6f0a616" className="basis-auto grow-0 shrink order-none self-auto flex-col flex-nowrap justify-normal content-normal gap-6 relative w-[600px] min-w-0 min-h-[auto] h-[752.875px] z-auto overflow-visible flex-initial text-start flex rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:0px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:0px] [padding-inline-end:64px] [padding-block-start:72px] [padding-block-end:0px] kplenN">
-                          <div data-widget_type="divider.default" data-element_type="widget" data-id="e6b4579" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full w-[536px] mb-5 [margin-block-end:0px] WPIbQt">
-                            <div className="h-full pt-0 pb-6 px-0 [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] lg:p-0 ZoNxoB">
-                              <div className="flex jfKdAq">
-                                <span className="w-36 flex items-center m-0 after:block after:content-none after:grow before:block before:content-[''] before:grow [direction:ltr] YhmRKn">
-                                  <span className="text-[#be7c68] text-[15px] font-semibold uppercase leading-none tracking-[2px] max-w-[95%] shrink-0 ml-2.5 mr-0 my-0 FLPxnu">
-                                    Welcome
-                                  </span>
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                          <div data-widget_type="heading.default" data-element_type="widget" data-id="8ef9ea0" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-wrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full mb-5 [margin-block-end:0px] lzZcMn">
-                            <div className=" [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] noeJeC">
-                              <h1 className="font-semibold text-[2em] leading-none text-[#808285] align-baseline clear-both tracking-[-2.4px] mt-0 mb-5 mx-0 p-0 border-0 [outline:0] lg:text-5xl md:tracking-[-1.4px] FWHAYa">
-                                I’m Dianna Adams
-                              </h1>
-                            </div>
-                          </div>
-                          <div data-widget_type="heading.default" data-element_type="widget" data-id="a7fbf79" className="basis-auto grow-0 shrink order-none self-auto flex-col flex-wrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full mb-5 [margin-block-end:0px] VqVMKM">
-                            <div className="h-full transition:background border rounded-lg  ">
-                              <h3 className="font-semibold text-[1.5em] leading-none text-[#808285] align-baseline clear-both tracking-[-1px] mt-0 mb-5 mx-0 p-0 border-0 [outline:0] lg:text-2xl QddrXg">
-                                Food Critic / Influencer / Blogger
-                              </h3>
-                            </div>
-                          </div>
-                          <div data-widget_type="text-editor.default" data-element_type="widget" data-id="e7dfdf9" className="basis-auto grow-0 shrink order-none self-auto flex-col flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full mb-5 [margin-block-end:0px] fPLGph">
-                            <div className="h-full pl-0 pr-20 pt-0 pb-2 [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] lg:pl-0 lg:pr-4 lg:py-0 wbmXEY">
-                              <p className="text-[100%] align-baseline m-0 p-0 border-0 [outline:0] tWyRdl">
-                                Massa urna magnis dignissim id euismod porttitor
-                                vitae etiam viverra nunc at adipiscing sit morbi
-                                aliquet mauris porttitor nisi, senectus pharetra, ac
-                                porttitor orci.
-                              </p>
-                            </div>
-                          </div>
-                          <div data-widget_type="button.default" data-element_type="widget" data-id="dc6cd13" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full mb-5 [margin-block-end:0px] WnSXDs">
-                            <div className="h-full [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] qguZXb">
-                              <div className=" hover:bg-[#be7c68] text-white">
-                                <a href="#" className="text-white no-underline border-[#FFF]  font-bold text-[15px] leading-none uppercase tracking-[2px] shadow-none inline-block fill-white text-center transition-[0.3s] px-6 py-3 rounded-[3px] bg-transparent border-solid border-[#be7c68] hover:text-white bg-[#be7c68] focus:text-white focus-visible:outline-dotted focus-visible:outline-inherit focus-visible:outline-[thin] visited:text-white md:px-[22px] lg:py-[15px]">
-                                  <span className="flex justify-center flex-row gap-[5px] wEXZpN">
-                                    <span className="inline-block KuLJEI">
-                                      Join Insider
-                                    </span>
-                                  </span>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                          <div data-element_type="container" data-id="207c143" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal items-stretch content-normal gap-0 relative w-[536px] min-w-0 min-h-[auto] h-[117.578px] z-auto overflow-visible flex-initial text-start flex rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:160px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:0px] [padding-inline-end:0px] [padding-block-start:0px] [padding-block-end:0px] gqEZly">
-                            <div data-element_type="container" data-id="e7a1e43" className="basis-auto grow-0 shrink order-none self-auto flex-col flex-nowrap justify-normal content-normal gap-5 relative w-[178.641px] min-w-0 min-h-[auto] h-[117.578px] z-auto overflow-visible flex-initial text-start flex rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:0px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:0px] [padding-inline-end:0px] [padding-block-start:0px] [padding-block-end:0px] ">
-                              <div data-widget_type="icon-box.default" data-element_type="widget" data-id="b6e5c2e" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full [margin-block-end:0px] nJayUr">
-                                <div className="h-full [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] TrWnjR">
-                                  <div className="text-center block md:block md:text-center QxOJKW">
-                                    <div className="mb-2 mx-auto md:mb-2 md:mx-auto klGVEZ">
-                                      <span className="inline-block leading-none transition-[0.3s] text-[#be7c68] text-[40px] text-center fill-[rgb(190,124,104)] border-[#be7c68] hover:text-[#69727d] lg:text-2xl WaOSqc">
-                                        <FaYoutube className="text-[#be7c68]"></FaYoutube>
-                                      </span>
-                                    </div>
-                                    <div className="grow GBJQZB">
-                                      <h3 className="font-semibold text-[1.5em] leading-[1.4] text-[#808285] align-baseline clear-both mt-0 mb-1 mx-0 p-0 border-0 [outline:0] lg:text-2xl QyRZFI">
-                                        <span>1.2M+</span>
-                                      </h3>
-                                      <p className="text-xs align-baseline font-semibold uppercase tracking-[2px] m-0 p-0 border-0 [outline:0] md:text-[10px] md:tracking-[1px] lsHBoW">
-                                        Subscribers
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div data-element_type="container" data-id="ade1a03" className="basis-auto grow-0 shrink order-none self-auto flex-col flex-nowrap justify-normal content-normal gap-5 relative w-[178.641px] min-w-0 min-h-[auto] h-[117.578px] z-auto overflow-visible flex-initial text-start flex rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:0px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:0px] [padding-inline-end:0px] [padding-block-start:0px] [padding-block-end:0px] MNlSIM">
-                              <div data-widget_type="icon-box.default" data-element_type="widget" data-id="558327f" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full [margin-block-end:0px] yjIVnh">
-                                <div className="h-full [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] INFakQ">
-                                  <div className="text-center block md:block md:text-center oNSWqK">
-                                    <div className="mb-2 mx-auto md:mb-2 md:mx-auto gBzOLM">
-                                      <span className="inline-block leading-none transition-[0.3s] text-[#be7c68] text-[40px] text-center fill-[rgb(190,124,104)] border-[#be7c68] hover:text-[#69727d] lg:text-2xl qfnLug">
-                                        <FaInstagram className="text-[#be7c68]"></FaInstagram>
-                                      </span>
-                                    </div>
-                                    <div className="grow WvykhR">
-                                      <h3 className="font-semibold text-[1.5em] leading-[1.4] text-[#808285] align-baseline clear-both mt-0 mb-1 mx-0 p-0 border-0 [outline:0] lg:text-2xl qXOKJb">
-                                        <span>1.8M+</span>
-                                      </h3>
-                                      <p className="text-xs align-baseline font-semibold uppercase tracking-[2px] m-0 p-0 border-0 [outline:0] md:text-[10px] md:tracking-[1px] qLixoF">
-                                        Followers
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div data-element_type="container" data-id="7348bca" className="basis-auto grow-0 shrink order-none self-auto flex-col flex-nowrap justify-normal content-normal gap-5 relative w-[178.641px] min-w-0 min-h-[auto] h-[117.578px] z-auto overflow-visible flex-initial text-start flex rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:0px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:0px] [padding-inline-end:0px] [padding-block-start:0px] [padding-block-end:0px] WFlDfH">
-                              <div data-widget_type="icon-box.default" data-element_type="widget" data-id="e83345d" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full [margin-block-end:0px] AydjSm">
-                                <div className="h-full [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] DRnVZz">
-                                  <div className="text-center block md:block md:text-center msSfyZ">
-                                    <div className="mb-2 mx-auto md:mb-2 md:mx-auto tpvbaX">
-                                      <span className="inline-block leading-none transition-[0.3s] text-[#be7c68] text-[40px] text-center fill-[rgb(190,124,104)] border-[#be7c68] hover:text-[#69727d] lg:text-2xl XhzfFE">
-                                      <FaWifi className="text-[#be7c68]"></FaWifi>
-                                      </span>
-                                    </div>
-                                    <div className="grow YdKYlm">
-                                      <h3 className="font-semibold text-[1.5em] leading-[1.4] text-[#808285] align-baseline clear-both mt-0 mb-1 mx-0 p-0 border-0 [outline:0] lg:text-2xl jLNcXc">
-                                        <span>800K+</span>
-                                      </h3>
-                                      <p className="text-xs align-baseline font-semibold uppercase tracking-[2px] m-0 p-0 border-0 [outline:0] md:text-[10px] md:tracking-[1px] VScxDU">
-                                        Readers
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div  className="basis-auto grow-0 shrink order-none self-auto flex-col flex-nowrap justify-normal content-normal gap-5 relative  z-auto overflow-visible flex-initial text-start flex rounded-none [transition:background .3s,border .3s,box-shadow .3s,transform .4s] [margin-block-start:0px] [margin-inline-end:0] [margin-block-end:0px] [margin-inline-start:0] [padding-inline-start:48px] [padding-inline-end:0px] [padding-block-start:0px] [padding-block-end:0px] DSifCv">
-                          <div  className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full text-center [margin-block-end:0px] lg:text-right zHrOfx">
-                            <div className="h-full [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] SxlsAQ">
-                                                                <img alt="not-found" className="align-middle inline-block rounded-md" src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-hero-img.jpg" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <Hero></Hero>
                     <Featured></Featured>
                     <LatestR></LatestR>
                     <BestR></BestR>
@@ -176,7 +52,7 @@ export default function Header() {
                     </div>
                   </div>
                   <div data-widget_type="text-editor.default" data-element_type="widget" data-id="5f19d10" className="basis-auto grow-0 shrink order-none self-auto flex-row flex-nowrap justify-normal content-normal gap-[normal] relative min-w-0 max-w-full text-center text-[#f6ecea] mb-5 [margin-block-end:0px] sezCUG">
-                    <div className="h-full mt-0 -mb-3 mx-0 px-[280px] py-0 [transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform .4s] lg:px-12 lg:py-0 md:p-0 GUWcKK">
+                    <div className="h-full mt-0 -mb-3 mx-0  py-0 lg:py-0 md:p-0">
                       <p className="text-[100%] align-baseline m-0 p-0 border-0 [outline:0] XcehKA">
                         Lorem dui tincidunt nunc viverra morbi et maecenas quam
                         adipiscing integer amet eget blandit phasellus est natoque

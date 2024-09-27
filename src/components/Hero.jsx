@@ -3,7 +3,14 @@ import { FaBeer, FaFacebook, FaInstagram, FaWifi, FaYoutube } from 'react-icons/
 export default function Hero (){
 
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-[#f3e2de]">
+        <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-[#f3e2de] bg-['../public/food-blogger-hero-bg-grad.svg']">
+            <div className="md:w-1/2 p-8 self-end">
+                <img
+                    src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-hero-img.jpg"
+                    alt="Dianna Adams"
+                    className="rounded-md shadow-lg"
+                />
+            </div>
             <div className="md:w-1/2 p-8">
                 <div className="mb-4">
                     <span className="text-[#be7c68] text-sm font-semibold uppercase tracking-wider">
@@ -45,13 +52,7 @@ export default function Hero (){
                     </div>
                 </div>
             </div>
-            <div className="md:w-1/2 p-8">
-                <img
-                    src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-hero-img.jpg"
-                    alt="Dianna Adams"
-                    className="rounded-md shadow-lg"
-                />
-            </div>
+            
         </div>
     )
 }

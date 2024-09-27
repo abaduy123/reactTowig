@@ -3,26 +3,26 @@ import { FaBeer, FaFacebook, FaInstagram, FaWifi, FaYoutube } from 'react-icons/
 export default function Nav (){
     return(
         <header id="masthead" className="  ">
-        <div className="hidden md:block" data-toggle-type="off-canvas" id="ast-desktop-header">
-          <div className="relative dpNwST">
-            <div data-section="section-primary-header-builder" className=" bg-none block z-[4] relative mx-auto">
-              <div data-section="section-primary-header-builder" className=" max-w-full grid content-center mx-auto px-5 lg:max-w-[1240px] lg:min-h-20 sWxKzc">
-                <div className="grid grid-cols-[auto_auto] items-center gap-x-5 [overflow-wrap:anywhere] Fgkkwm">
-                  <div className="flex-wrap  min-h-0 items-center flex TMeQTJ">
-                    <div data-section="title_tagline" className="flex items-center flex-wrap pl-0 last:pr-0 ouQnlj">
-                      <div className="inline-flex align-middle items-center transition-[0.2s] duration-[linear] leading-none self-center px-0 py-[1em] YvdWFi">
+        <div className="hidden md:block">
+          <div className="relative">
+            <div  className="">
+              <div  className=" max-w-full content-center px-5 ">
+                <div className="grid grid-cols-[auto_auto] items-center gap-x-5 overflow-wrap:anywhere">
+                  <div className="flex-wrap  min-h-0 items-center flex">
+                    <div className="flex items-center flex-wrap">
+                      <div className="inline-flex align-middle items-center transition-[0.2s] duration-[linear] leading-none self-center px-0 py-[1em]">
                         <span className="pr-[1em]">
-                          <a aria-current="page" rel="home" className="text-[#4169e1] no-underline bg-transparent hover:text-[#191970] focus:text-[#191970] focus-visible:outline-dotted focus-visible:outline-inherit focus-visible:outline-[thin] EkAmRp" href="https://websitedemos.net/food-blogger-04/?customize=template">
-                            <img decoding="async" alt="Food Blogger & Influencer" className="max-w-full w-16 transition-[0.2s] duration-[linear] h-auto align-middle border-0 lg:w-12 lg:max-w-12 VMunDz" src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg" height={34} width={64} />
+                          <a>
+                            <img alt="Food Blogger & Influencer" className="max-w-full w-16 transition-[0.2s] duration-[linear] h-auto align-middle border-0 lg:w-12 lg:max-w-12 VMunDz" src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg" height={34} width={64} />
                           </a>
                         </span>
                       </div>
                     </div>
-                    <div data-section="section-hb-menu-1" className="font-bold uppercase flex items-center flex-wrap pr-0 first:pl-0 CLlxAr">
-                      <div className="ml-auto FoaHvZ">
+                    <div data-section="section-hb-menu-1" className="font-bold uppercase flex items-center flex-wrap pr-0 first:pl-0">
+                      <div className="ml-auto">
                         <div className=" empty:p-0 NlEfyx">
                           <nav aria-label="Site Navigation: Primary" id="primary-site-navigation-desktop" className="block h-full grow jTXmry">
-                            <div className="h-full inline-flex items-center flex-wrap content-center p-0 CYKHMQ">
+                            <div className="h-full inline-flex items-center flex-wrap content-center p-0">
                               <ul className="text-[100%] align-baseline relative self-center flex flex-wrap m-0 p-0 border-0 [outline:0] [list-style:none] deXgrH" id="ast-hf-menu-1">
                                 <li className="flex justify-center flex-col leading-[104px] text-[100%] align-baseline relative m-0 p-0 border-0 [-webkit-box-pack:center] [-webkit-box-orient:vertical] [outline:0] UxcFdI" id="menu-item-1011">
                                   <a className="text-[#be7c68] text-xs h-full items-center flex no-underline bg-transparent transition-[0.2s] duration-[linear] px-[1em] py-0 hover:text-[#191970] focus:text-[#191970] focus-visible:outline-dotted focus-visible:outline-inherit focus-visible:outline-[thin] [-webkit-box-align:center] WzjwzA" aria-current="page" >

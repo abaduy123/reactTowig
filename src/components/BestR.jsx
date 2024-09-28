@@ -32,12 +32,12 @@ export default function BestR (){
         },
       ];
     return (
-        <div className="bg-[#F3EFEE] py-16 px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-700 mb-8">Best in Class Restaurant</h2>
+        <div className="bg-[#F3EFEE] py-16 px-20 ">
+            <h2 className="text-5xl font-bold text-center text-gray-700 mb-8 ">Best in Class Restaurant</h2>
             <p className="text-center text-gray-500 mb-12 max-w-2xl mx-auto">
                 Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra ac porttitor orci.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-content-center">
                 {restaurants.map((restaurant, index) => (
                     <div key={index} className="flex flex-col items-center">
                         <img
@@ -45,8 +45,8 @@ export default function BestR (){
                             alt={restaurant.name}
                             className="w-full h-60 object-cover mb-4"
                         />
-                        <h3 className="font-semibold text-xl text-gray-700 mb-2">{restaurant.name}</h3>
-                        <p className="text-gray-600 text-center">{restaurant.description}</p>
+                        <h3 className="font-semibold text-3xl text-gray-700 mb-2">{restaurant.name}</h3>
+                        <p className="text-gray-600 ">{restaurant.description}</p>
                     </div>
                 ))}
             </div>

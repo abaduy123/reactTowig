@@ -1,6 +1,6 @@
 export default function Mail(){
     return (
-        <div className=" mx-auto my-8 p-8 border-2 border-gray-200 bg-white flex flex-col md:flex-row items-center">
+        <div className=" mx-auto my-8 px-12 border-6 border-gray-200 bg-white flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/2 mb-4 md:mb-0">
                 <img
                     src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-subscribe-cta-img.jpg"
@@ -9,7 +9,7 @@ export default function Mail(){
                 />
             </div>
             <div className="w-full md:w-1/2 md:pl-8">
-                <h2 className="text-2xl font-semibold text-5xl text-gray-700">Join Mailing List</h2>
+                <h2 className="font-semibold text-5xl text-gray-700">Join Mailing List</h2>
                 <p className="text-gray-600 my-4">
                     Sign up and get all the latest, ad-free reviews, recipes and news sent to your inbox.
                 </p>

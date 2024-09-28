@@ -3,7 +3,7 @@ import { FaBeer, FaFacebook, FaInstagram, FaWifi, FaYoutube } from 'react-icons/
 export default function Hero (){
 
     return (
-        <div className="mt-[4em] flex flex-col-reverse md:flex-row items-center justify-center  relative">
+        <div className="mt-[4em] px-16  flex flex-col-reverse md:flex-row items-center justify-center relative">
             <div className="absolute inset-0  md:right-0" />
             <div className="relative md:w-1/2 p-8 z-10">
                 <div className="mb-4">
@@ -11,10 +11,10 @@ export default function Hero (){
                         Welcome
                     </span>
                 </div>
-                <h1 className="text-4xl font-bold text-gray-800 mb-2">
+                <h1 className="text-6xl font-bold text-gray-800 mb-2">
                     I’m Dianna Adams
                 </h1>
-                <h3 className="text-2xl font-semibold text-gray-600 mb-4">
+                <h3 className="text-4xl font-semibold text-gray-600 mb-4">
                     Food Critic / Influencer / Blogger
                 </h3>
                 <p className="text-gray-600 mb-6">

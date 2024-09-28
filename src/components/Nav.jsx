@@ -5,7 +5,7 @@ export default function Nav (){
     return(
         <header id="masthead" className="">
         
-        <div className="md:hidden">
+        <div className="mx-12 md:hidden">
           <div className="">
             <div className="">
               <div className="grid grid-cols-[auto_auto] items-center gap-x-5 [overflow-wrap:anywhere]">

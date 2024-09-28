@@ -25,9 +25,9 @@ export default function Wrap() {
           >
             <main id="main" className="block">
               <article>
-                <header className=" mb-[1.2em] mx-auto pl-0 pr-5" />
+                
                 <div className="after:clear-both after:content-['']">
-                  <div className="mb-0">
+                  <div className="">
                     
                     <Featured />
                     <LatestR />
@@ -43,18 +43,18 @@ export default function Wrap() {
       </div>
       <div className=" bg-[#be7c68] text-white">
         <div className="w-full h-[439px] flex items-center justify-center">
-          <div className="text-center">
-            <h2 className="font-semibold text-[1.7em] lg:text-[40px] mb-5">
+          <div className="text-center px-12">
+            <h2 className="font-semibold text-5xl lg:text-5xl mb-5">
               Invite me to your restaurant.
               <br />
               Get exposure of millions food lovers.
             </h2>
-            <p className="text-[#f6ecea] mb-5">
+            <p className="text-[#f6ecea] text-center text-wrap mb-12">
               Lorem dui tincidunt nunc viverra morbi et maecenas quam adipiscing integer amet eget blandit phasellus est natoque blandit facilisi eleifend.
             </p>
             <a
               href="#"
-              className="text-[#BE7C68] bg-white font-bold text-[15px] uppercase tracking-[2px] px-6 py-3 rounded-[3px] border border-white hover:text-white hover:bg-transparent"
+              className="text-[#BE7C68]  bg-white font-bold text-[15px] uppercase tracking-[2px] px-6 py-3 rounded-[3px] border border-white hover:text-white hover:bg-transparent"
             >
               Let's Talk
             </a>

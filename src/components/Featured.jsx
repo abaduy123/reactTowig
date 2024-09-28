@@ -10,7 +10,7 @@ export default function Featured () {
         
         
           
-            <div className="max-w-lg py-8 md:max-w-none">
+            <div className="max-w-lg py-8  md:max-w-none px-12">
               <h6 className="font-semibold text-gray-500 uppercase text-center tracking-widest mb-5">As Featured In</h6>
               <div className="flex justify-center items-center flex-wrap md:gap-6">
                 {logos.map((logo, index) => (

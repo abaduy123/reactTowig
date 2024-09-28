@@ -25,8 +25,8 @@ export default function Lvideos (){
           },
         ];
         return (
-            <div className="mx-auto my-16 px-4">
-                <h2 className="text-3xl font-bold text-gray-800 mb-8">Latest Videos</h2>
+            <div className="mx-auto my-16 ">
+                <h2 className="text-5xl font-bold text-gray-800 mb-8">Latest Videos</h2>
                 <div className="flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2">
                         <div
@@ -62,7 +62,7 @@ export default function Lvideos (){
                                 </div>
                             </div>
                         ))}
-                        <button className="mt-4  text-[#D2A79B] font-bold py-2 px-4 rounded hover:bg-[#D2A79B] hover:text-white">
+                        <button className="mt-4 w-full border-[1px] border-[#D2A79B] text-[#D2A79B] font-bold py-2 px-4 rounded hover:bg-[#D2A79B] hover:text-white">
                             View All Videos
                         </button>
                     </div>

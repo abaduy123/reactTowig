@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { FaBeer, FaFacebook, FaInstagram, FaWifi, FaYoutube } from 'react-icons/fa'
 export default function FooterL (){
     return (
-        <footer className=" w-full py-6">
+        <footer className=" w-full py-24 px-12">
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-center px-4">
                 <div className="flex items-center space-x-4 mb-4 lg:mb-0">
                     <img

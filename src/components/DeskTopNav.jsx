@@ -2,7 +2,7 @@ import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa';
 export default function DeskTopNav (){
 
     return (
-        <header className="hidden md:flex md:py-4 px-8 justify-between items-center">
+        <header className="hidden  md:flex md:py-4 px-12 justify-between items-center">
             <div className="flex items-center space-x-8">
                 <a href="/" className="text-2xl font-bold text-[#be7c68]">
                     <img
@@ -17,7 +17,7 @@ export default function DeskTopNav (){
                 <nav className="flex space-x-4">
                     <a
                         key="home"
-                        className="text-xs font-bold font-mono text-[#BE7C68] hover:text-[#191970] uppercase"
+                        className="text-sm font-extrabold font-mono text-[#BE7C68] hover:text-[#191970] uppercase"
                         href="#"
                     >
                         Home
@@ -25,7 +25,7 @@ export default function DeskTopNav (){
                     {['About', 'Reviews', 'Videos', 'Contact'].map((item) => (
                         <a
                             key={item}
-                            className="text-xs font-bold font-mono text-[#131516] hover:text-[#191970] uppercase"
+                            className=" text-sm font-bold font-mono text-[#131516] hover:text-[#191970] uppercase"
                             href="#"
                         >
                             {item}
@@ -35,7 +35,7 @@ export default function DeskTopNav (){
             </div>
 
             <div className="flex items-center space-x-4">
-                <div className="flex space-x-2">
+                <div className="flex gap-2 space-x-2">
                     <a href="#" className="text-white hover:text-[#0274be]">
                         <FaYoutube />
                     </a>

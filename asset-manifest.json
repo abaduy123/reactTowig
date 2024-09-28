@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactTowig/static/css/main.4231930d.css",
-    "main.js": "/reactTowig/static/js/main.1e0b4f54.js",
+    "main.css": "/reactTowig/static/css/main.92fc2430.css",
+    "main.js": "/reactTowig/static/js/main.f4bfbc3e.js",
     "static/js/453.ed3810f9.chunk.js": "/reactTowig/static/js/453.ed3810f9.chunk.js",
     "static/media/logo.svg": "/reactTowig/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reactTowig/index.html",
     "static/media/food-blogger-hero-bg-grad.svg": "/reactTowig/static/media/food-blogger-hero-bg-grad.4157bf0a648f13795f84.svg",
-    "main.4231930d.css.map": "/reactTowig/static/css/main.4231930d.css.map",
-    "main.1e0b4f54.js.map": "/reactTowig/static/js/main.1e0b4f54.js.map",
+    "main.92fc2430.css.map": "/reactTowig/static/css/main.92fc2430.css.map",
+    "main.f4bfbc3e.js.map": "/reactTowig/static/js/main.f4bfbc3e.js.map",
     "453.ed3810f9.chunk.js.map": "/reactTowig/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4231930d.css",
-    "static/js/main.1e0b4f54.js"
+    "static/css/main.92fc2430.css",
+    "static/js/main.f4bfbc3e.js"
   ]
 }

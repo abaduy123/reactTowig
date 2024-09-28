@@ -11,10 +11,10 @@ export default function Hero (){
                         Welcome
                     </span>
                 </div>
-                <h1 className="text-6xl font-bold text-gray-800 mb-2">
+                <h1 className="text-3xl font-bold text-gray-800 mb-2 md:text-6xl">
                     I’m Dianna Adams
                 </h1>
-                <h3 className="text-4xl font-semibold text-gray-600 mb-4">
+                <h3 className="text-2xl font-semibold text-gray-600 mb-4 md:text-4xl">
                     Food Critic / Influencer / Blogger
                 </h3>
                 <p className="text-gray-600 mb-6">

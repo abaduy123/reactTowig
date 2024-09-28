@@ -1,3 +1,5 @@
+import { FaCirclePlay } from "react-icons/fa6";
+
 export default function Lvideos (){
     
         const videos = [
@@ -23,7 +25,7 @@ export default function Lvideos (){
           },
         ];
         return (
-            <div className="max-w-5xl mx-auto my-16 px-4">
+            <div className="mx-auto my-16 px-4">
                 <h2 className="text-3xl font-bold text-gray-800 mb-8">Latest Videos</h2>
                 <div className="flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2">
@@ -34,8 +36,8 @@ export default function Lvideos (){
                                     "url('https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-1.jpg')",
                             }}
                         >
-                            <button className="bg-white text-red-500 p-4 rounded-full shadow-lg">
-                                <i className="fas fa-play"></i>
+                            <button className=" text-red-500 p-4 rounded-full shadow-lg">
+                            <FaCirclePlay className="text-white"/>
                             </button>
                         </div>
                         <h3 className="text-xl font-semibold mt-4">
@@ -60,7 +62,7 @@ export default function Lvideos (){
                                 </div>
                             </div>
                         ))}
-                        <button className="mt-4 bg-gray-700 text-white font-bold py-2 px-4 rounded hover:bg-gray-600">
+                        <button className="mt-4  text-[#D2A79B] font-bold py-2 px-4 rounded hover:bg-[#D2A79B] hover:text-white">
                             View All Videos
                         </button>
                     </div>

@@ -10,12 +10,12 @@ export default function Featured () {
         
         
           
-            <div className="max-w-screen-lg mx-auto py-8">
+            <div className="max-w-lg py-8 md:max-w-none">
               <h6 className="font-semibold text-gray-500 uppercase text-center tracking-widest mb-5">As Featured In</h6>
-              <div className="flex justify-center items-center flex-wrap gap-5">
+              <div className="flex justify-center items-center flex-wrap md:gap-6">
                 {logos.map((logo, index) => (
-                  <div key={index} className="w-1/5 md:w-24 sm:w-20 flex justify-center items-center">
-                    <img src={logo} alt={`logo-${index}`} className="max-h-12"/>
+                  <div key={index} className="w-1/2 sm:w-20 md:w-40 lg:w-40 xl:w-52  flex justify-center items-center">
+                    <img src={logo} alt={`logo-${index}`} width={177} height={100} className="max-h-24 md:max-h-32 lg:max-h-44"/>
                   </div>
                 ))}
               </div>

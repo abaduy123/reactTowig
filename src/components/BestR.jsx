@@ -32,7 +32,7 @@ export default function BestR (){
         },
       ];
     return (
-        <div className="bg-[#F3EFEE] w-full max-w-screen-xl mx-auto py-16 px-4">
+        <div className="bg-[#F3EFEE] py-16 px-4">
             <h2 className="text-3xl font-bold text-center text-gray-700 mb-8">Best in Class Restaurant</h2>
             <p className="text-center text-gray-500 mb-12 max-w-2xl mx-auto">
                 Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra ac porttitor orci.

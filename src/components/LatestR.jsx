@@ -18,10 +18,10 @@ export default function LatestR (){
       ];
 
     return (
-        <div className="max-w-screen-xl mx-auto py-16 px-4">
+        <div className="mx-auto py-16 px-4">
             <div className="flex justify-between items-center mb-8">
                 <h2 className="text-3xl font-bold text-gray-800">Latest Reviews</h2>
-                <button className="bg-transparent border-2 border-gray-800 text-gray-800 px-4 py-2 uppercase text-sm hover:bg-gray-800 hover:text-white transition">
+                <button className="bg-transparent border-2 border-[#D2A79B] text-[#D2A79B] px-4 py-2 uppercase text-sm hover:bg-[#D2A79B] hover:text-white transition">
                     View All
                 </button>
             </div>
@@ -35,7 +35,7 @@ export default function LatestR (){
                         />
                         <h3 className="text-2xl font-semibold text-gray-800 mb-2">{review.title}</h3>
                         <p className="text-gray-600 mb-4">{review.description}</p>
-                        <a href="#" className="text-gray-800 font-bold uppercase text-sm hover:underline">
+                        <a href="#" className="text-[#D2A79B] font-bold uppercase text-sm hover:text-[#4E5250]">
                             Read More →
                         </a>
                     </div>

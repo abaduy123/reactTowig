@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
-import Header from './components/Header';
+import Wrap from './components/Wrap';
 import "@fortawesome/react-fontawesome"
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="">
       
      
-      <Header></Header>
+      <Wrap></Wrap>
 
 
     </div>

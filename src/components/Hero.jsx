@@ -3,7 +3,7 @@ import { FaBeer, FaFacebook, FaInstagram, FaWifi, FaYoutube } from 'react-icons/
 export default function Hero (){
 
     return (
-        <div className="mt-[4em] px-16  flex flex-col-reverse md:flex-row items-center justify-center relative">
+        <div className="mt-[4em] px-6  flex flex-col-reverse md:flex-row items-center justify-center relative">
             <div className="absolute inset-0  md:right-0" />
             <div className="relative md:w-1/2 p-8 z-10">
                 <div className="mb-4">

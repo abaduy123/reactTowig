@@ -42,9 +42,9 @@ export default function Wrap() {
         </div>
       </div>
       <div className=" bg-[#be7c68] text-white">
-        <div className="w-full h-[439px] flex items-center justify-center">
+        <div className="w-full h-[500px] flex items-center justify-center">
           <div className="text-center px-12">
-            <h2 className="font-semibold text-5xl lg:text-5xl mb-5">
+            <h2 className="font-semibold text-3xl py-12 mb-5 lg:text-5xl mb-5">
               Invite me to your restaurant.
               <br />
               Get exposure of millions food lovers.

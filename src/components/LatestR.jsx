@@ -18,7 +18,7 @@ export default function LatestR (){
       ];
 
     return (
-        <div className="mx-auto py-16 px-12">
+        <div className="mx-auto py-16 px-4">
             <div className="flex  justify-between items-center mb-16">
                 <h2 className="text-5xl font-bold text-gray-800">Latest Reviews</h2>
                 <button className="bg-transparent border-2 border-[#D2A79B] text-[#D2A79B] px-4 py-2 uppercase text-sm hover:bg-[#D2A79B] hover:text-white transition">

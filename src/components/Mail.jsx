@@ -13,7 +13,7 @@ export default function Mail(){
                 <p className="text-gray-600 my-4">
                     Sign up and get all the latest, ad-free reviews, recipes and news sent to your inbox.
                 </p>
-                <form className="flex flex-col sm:flex-row items-center">
+                <form className="flex pb-3 flex-col sm:flex-row items-center">
                     <input
                         type="email"
                         placeholder="Email address"
